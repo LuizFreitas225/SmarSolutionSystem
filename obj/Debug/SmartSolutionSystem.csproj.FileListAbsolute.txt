@@ -1,0 +1,15 @@
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.csproj.AssemblyReference.cache
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.Properties.Resources.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.csproj.GenerateResource.cache
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.csproj.CoreCompileInputs.cache
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\bin\Debug\SmartSolutionSystem.exe.config
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\bin\Debug\SmartSolutionSystem.exe
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\bin\Debug\SmartSolutionSystem.pdb
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.exe
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.pdb
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.Login.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.InformacaoPessoalForm.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.EnderecoForm.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.InformacaoLoginForm.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.TermosGeraisDeUsoForm.resources
