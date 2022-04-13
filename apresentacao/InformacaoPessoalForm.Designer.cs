@@ -56,6 +56,7 @@
             this.senhaLb.Name = "senhaLb";
             this.senhaLb.Size = new System.Drawing.Size(0, 24);
             this.senhaLb.TabIndex = 2;
+            this.senhaLb.Click += new System.EventHandler(this.senhaLb_Click);
             // 
             // nome
             // 
@@ -76,6 +77,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 24);
             this.label4.TabIndex = 6;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label1
             // 
@@ -97,6 +99,7 @@
             this.label2.Size = new System.Drawing.Size(58, 24);
             this.label2.TabIndex = 8;
             this.label2.Text = "CNPJ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -107,6 +110,7 @@
             this.label3.Size = new System.Drawing.Size(85, 24);
             this.label3.TabIndex = 9;
             this.label3.Text = "Telefone";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox1
             // 
@@ -116,6 +120,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(198, 153);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label5
             // 
@@ -125,6 +130,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 24);
             this.label5.TabIndex = 11;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // isContaEmpresarialCheck
             // 
@@ -144,6 +150,7 @@
             this.nometxt.Name = "nometxt";
             this.nometxt.Size = new System.Drawing.Size(198, 20);
             this.nometxt.TabIndex = 13;
+            this.nometxt.TextChanged += new System.EventHandler(this.nometxt_TextChanged);
             // 
             // telefoneTxt
             // 
@@ -151,6 +158,7 @@
             this.telefoneTxt.Name = "telefoneTxt";
             this.telefoneTxt.Size = new System.Drawing.Size(198, 20);
             this.telefoneTxt.TabIndex = 14;
+            this.telefoneTxt.TextChanged += new System.EventHandler(this.telefoneTxt_TextChanged);
             // 
             // cpfTxt
             // 
@@ -158,6 +166,7 @@
             this.cpfTxt.Name = "cpfTxt";
             this.cpfTxt.Size = new System.Drawing.Size(198, 20);
             this.cpfTxt.TabIndex = 15;
+            this.cpfTxt.TextChanged += new System.EventHandler(this.cpfTxt_TextChanged);
             // 
             // cnpjTxt
             // 
@@ -165,6 +174,7 @@
             this.cnpjTxt.Name = "cnpjTxt";
             this.cnpjTxt.Size = new System.Drawing.Size(198, 20);
             this.cnpjTxt.TabIndex = 16;
+            this.cnpjTxt.TextChanged += new System.EventHandler(this.cnpjTxt_TextChanged);
             // 
             // proximoBt
             // 

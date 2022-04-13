@@ -124,5 +124,55 @@ namespace SmartSolutionSystem.apresentacao
         {
 
         }
+
+        private void cnpjTxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cpfTxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void telefoneTxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nometxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void senhaLb_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

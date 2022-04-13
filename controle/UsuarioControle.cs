@@ -29,5 +29,37 @@ namespace SmartSolutionSystem.controle
 
             
         }
+
+        public List<InformacaoPessoal> getInformacaoPessoalUsuario()
+        {
+            UsuarioDao usuarioDao = new UsuarioDao();
+
+            List<Usuario> usuarioLista = usuarioDao.find();
+            List<InformacaoPessoal> infoPessoaLista = new List<InformacaoPessoal>();
+
+
+            foreach (Usuario usuAux in usuarioLista)
+            {
+                infoPessoaLista.Add(usuAux.informacaoPessoal);
+            }
+
+            return infoPessoaLista;
+        }
+        public List<UsuarioDTO> getUsuariosDTO()
+        {
+            UsuarioDao usuarioDao = new UsuarioDao();
+
+            List<Usuario> usuarioLista = usuarioDao.find();
+            List<UsuarioDTO> usuarioDTOList = new List<UsuarioDTO>();
+            foreach(Usuario usuario in usuarioLista)
+            {
+                usuarioDTOList.Add(UsuarioDTO.getUsuarioDTO(usuario));
+            }
+            
+           
+
+            return usuarioDTOList;
+        }
+
     }
 }

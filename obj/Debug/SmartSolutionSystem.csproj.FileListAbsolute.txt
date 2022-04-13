@@ -13,3 +13,7 @@ C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSys
 C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.EnderecoForm.resources
 C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.InformacaoLoginForm.resources
 C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.TermosGeraisDeUsoForm.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.TelaPrincipalForm.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.UsuarioForm.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.OrdemDeServicoForm.resources
+C:\Users\luizn\OneDrive\Documentos\Estudos\Faculdade\AvalicaoTp\SmartSolutionSystem\SmartSolutionSystem\obj\Debug\SmartSolutionSystem.apresentacao.ListaOSForm.resources

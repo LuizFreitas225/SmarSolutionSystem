@@ -102,14 +102,11 @@ namespace SmartSolutionSystem.apresentacao
                         {
                             MessageBox.Show("Cadastro Realizado com Sucesso!", "Successo",
                             MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Close();
 
                         }
-                        if (Login.ActiveForm == null)
-                        {
-                            Login login = new Login();
-                            login.Show();
-                        }
-                        this.Close();
+                       
+                       
                     }
                     else
                     {

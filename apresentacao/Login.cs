@@ -9,11 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SmartSolutionSystem.apresentacao;
 using SmartSolutionSystem.controle;
+using SmartSolutionSystem.model;
 
 namespace SmartSolutionSystem
 {
     public partial class Login : Form
-    {
+    {    Usuario usuarioLogado ;
         public Login()
         {
             InitializeComponent();
@@ -39,6 +40,21 @@ namespace SmartSolutionSystem
                 {
                     MessageBox.Show("Logado com Sucesso", "Entrando",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    usuarioLogado = controle.usuario;
+
+                    RegistroAtividadeControle controleRgistro = new RegistroAtividadeControle();
+
+                    RegistroAtividade novoRegistro = new RegistroAtividade();
+                    novoRegistro.horario = DateTime.Now;
+                    novoRegistro.usuario = usuarioLogado;
+                    novoRegistro.tipoAtivide = TipoAtividade.Login;
+
+                    controleRgistro.cadastrar(novoRegistro);
+
+                   
+                    TelaPrincipalForm telaPrincipalForm = new TelaPrincipalForm(usuarioLogado);
+                    telaPrincipalForm.Show();
 
                 }
                 else

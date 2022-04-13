@@ -34,12 +34,6 @@ namespace SmartSolutionSystem.dao
 
                     usuario.id = dr.GetInt32(dr.GetOrdinal("ID"));
 
-                    usuario.isPessoaJuridica = dr.GetBoolean(dr.GetOrdinal("IS_PESSOA_JURIDICA"));
-
-                    usuario.informacaoLogin = new InformacaoLogin();
-
-                    usuario.informacaoLogin.senha = dr.GetString(dr.GetOrdinal("SENHA"));
-                    usuario.informacaoLogin.login = dr.GetString(dr.GetOrdinal("LOGIN"));
 
                 }
 
@@ -50,8 +44,8 @@ namespace SmartSolutionSystem.dao
                 this.mensagem = "Erro com Banco de Dados! ";
             }
             
-
-            return usuario;
+            UsuarioDao usuarioDao = new UsuarioDao();
+            return usuarioDao.findById(usuario.id);
         }
        
     }
