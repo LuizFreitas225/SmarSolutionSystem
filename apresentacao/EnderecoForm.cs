@@ -19,10 +19,20 @@ namespace SmartSolutionSystem.apresentacao
         {
             InitializeComponent();
         }
-        public EnderecoForm(Usuario usuario)
+        public EnderecoForm(Usuario usuario,bool withEndereco)
         {
-            this.usuario = usuario;
             InitializeComponent();
+            if (withEndereco)
+            {
+                cepTxt.Text = usuario.endereco.cep;
+                enderecoTxt.Text = usuario.endereco.endereco;
+                complementoTxt.Text = usuario.endereco.complemento;
+                cidadeTxt.Text = usuario.endereco.cidade;
+                bairroTxt.Text = usuario.endereco.bairro;
+                ufTxt.Text = usuario.endereco.uf;
+            }
+            this.usuario = usuario;
+         
         }
 
         private void label3_Click(object sender, EventArgs e)

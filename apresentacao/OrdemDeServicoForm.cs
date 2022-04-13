@@ -135,7 +135,7 @@ namespace SmartSolutionSystem
                     {
                         MessageBox.Show("Cadastro Realizado com Sucesso!", "Successo",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        this.Close();
+                        
 
                     }
 

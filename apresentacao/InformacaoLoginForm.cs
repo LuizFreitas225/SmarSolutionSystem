@@ -153,8 +153,8 @@ namespace SmartSolutionSystem.apresentacao
 
         private void voltarBt_Click(object sender, EventArgs e)
         {
-            InformacaoPessoalForm informacaoPessoal = new InformacaoPessoalForm(usuario);
-            informacaoPessoal.Show();
+            EnderecoForm enderecoForm = new EnderecoForm(usuario,true);
+            enderecoForm.Show();
             this.Close();
         }
 
